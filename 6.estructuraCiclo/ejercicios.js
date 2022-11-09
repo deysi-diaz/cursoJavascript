@@ -70,7 +70,16 @@ function facctorial(num){
 
 //haser un programa que determine si un texto es palidromo 
 
-
+function palindromo(str){
+    for(let i =0 ;i<str.length; i++){
+        console.log(str[i] !== str[str.length-0-i])
+        if(str[i] !== str[str.length-1-i]){
+            return false
+        }
+    }
+    return true
+}
+palindromo ()
  
 // hacer un programa que muestre los primeros numeros 
 //de la serie de fiboanci
@@ -80,5 +89,5 @@ for(let i=0; i<10; i++){
     r= n1+n2;
     n1=n2;
     n2=r
-    console.log(r); git
+    console.log(r); gitcd
 }
