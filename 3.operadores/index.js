@@ -1,0 +1,1 @@
+// averiguar sobre los operadores y tipos de operadores de jacascript
